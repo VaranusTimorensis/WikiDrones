@@ -23,10 +23,10 @@ my_package/
      package.xml
      src/
 ```
-- CMakeLists.txt file that describes how to build the code within the package
-- include/<package_name> directory containing the public headers for the package
-- package.xml file containing meta information about the package
-- src directory containing the source code for the package
+- `CMakeLists.txt`: file that describes how to build the code within the package
+- `include/<package_name>`: directory containing the public headers for the package
+- `package.xml`: file containing meta information about the package
+- `src directory`: containing the source code for the package
 
 A single workspace can contain as many packages as you want, each in their own folder. You can also have packages of different build types in one workspace (CMake, Python, etc.). You cannot have nested packages.
 
