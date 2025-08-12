@@ -1,0 +1,8 @@
+{
+  "label": "Sujets avancés",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Sujets plus avancés, à trier"
+  }
+}
