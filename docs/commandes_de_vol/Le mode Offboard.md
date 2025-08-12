@@ -26,3 +26,18 @@ def publish_offboard_control_heartbeat_signal(self):
     self.offboard_control_mode_publisher.publish(msg)
 ```
 Cette commande précise comment le drône est contrôlé : en position, en vitesse, en accélération, etc.
+
+### Message UORB
+```
+# Off-board control mode
+
+uint64 timestamp		# time since system start (microseconds)
+
+bool position
+bool velocity
+bool acceleration
+bool attitude
+bool body_rate
+bool thrust_and_torque
+bool direct_actuator
+```
