@@ -1,8 +1,0 @@
-{
-  "label": "Bases de ROS2",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Notions de base et création d'un package ROS2"
-  }
-}

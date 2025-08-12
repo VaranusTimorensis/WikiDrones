@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwikidrones=self.webpackChunkwikidrones||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/WikiDrones/blog","blogTitle":"Blog","authorsListPath":"/WikiDrones/blog/authors"}')}}]);
